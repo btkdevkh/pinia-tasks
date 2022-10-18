@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+}
+img {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background-color: #ddd;
+  padding: 10px;
+}
+header img {
+  width: 40px;
+}
+header h1 {
+  color: rgb(123, 122, 122);
+}
+
+/* Task List */
+.task-list {
+  width: 350px;
+  margin: 15px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Task Details */
+.task-details {
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  padding: 15px;
+}
+
+i {
+  color: #afafaf;
+  cursor: pointer;
+}
+i.active {
+  color: red;
+}
+
+.filter {
+  width: 350px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px;
+}
+.filter button {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  background-color: violet;
+  color: white;
+  cursor: pointer;
+}
+
+/* Task Form */
+.new-task-form {
+  width: 350px;
+  margin: 15px auto 0 auto;
+}
+.new-task-form input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f4f0f0;
+}
+.new-task-form input:focus {
+  outline: none;
+}
+.new-task-form button {
+  width: 15%;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #ffda37;
+  border: none;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Loading */
+.loading {
+  text-align: center;
+}
+
+/* Reset Store */
+.reset-store {
+  display: block;
+  width: 100px;
+  margin: 25px auto 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: #ffda37;
+  cursor: pointer;
+}
